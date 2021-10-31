@@ -1,0 +1,133 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+    <title> BUZZ AROUND ME</title>
+    <link rel="stylesheet" href="css/style1.css" type="text/css">
+	<link rel="shortcut icon" type="image/png" href="images/icon.png">
+	<!--for parallax-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	<script src="js/parallax.min.js"></script>
+	<link rel="stylesheet" href="css/parallax.css">
+	<!--end of parallax-->
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet'  type='text/css'>
+	<style>
+	.mySlides {display:none;}
+	
+
+	.text-block {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+	padding-right: 20px;
+	font-family: Arial;
+}
+        .none{
+			background-color: #99ccff;
+			background-image: url("images/b1.jpg");
+			background-repeat: no-repeat;
+			background-attachment: fixed;
+			background-size: cover;
+		}
+	</style>
+	 
+        <link rel="stylesheet" type="text/css" href="css/demo.css" />
+		<link rel="stylesheet" type="text/css" href="css/slicebox.css" />
+		<link rel="stylesheet" type="text/css" href="css/custom.css" />
+		<script type="text/javascript" src="js/modernizr.custom.46884.js"></script>
+    </head>
+<body class="none">
+    <header>
+    <div class="row" >
+            <div class="logo">
+            <img src="images/Buzz-Logo.png">
+            </div>
+        <ul class="main-nav">
+            <li class="active"><a href="index.html"><span class="glyphicon glyphicon-home"></span> Home
+			</a></li>
+            
+            <li><a href="#slide"><span class="glyphicon glyphicon-play-circle"></span> Gallery</a></li>
+           
+            <li><a href="#about"><span class="glyphicon glyphicon-info-sign"></span> ABOUT</a></li>
+            <li><a href="sign-up.php"><span class="glyphicon glyphicon-user"></span> Signup</a></li>
+            <li><a href="login.php"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+            </ul>
+            
+       
+    </div>
+       
+	</header>
+	<br><br>
+	<!--end of header-->
+	<!--start of slide show-->
+	
+	<div class="container1" id="slide" >
+			<h3 style="padding-left:50px; color:#ffcc00;"><b>Event Slides</b></h3>
+			<div  style="max-width:1300px; padding-left:50px;">
+				 <img class="mySlides" src="images/halloween1.jpg" style="width:100%">
+				 <img class="mySlides" src="images/concert1.jpg" style="width:100%">
+				 <img class="mySlides" src="images/christmas1.jpg" style="width:100%">
+				 <img class="mySlides" src="images/color1.jpg" style="width:100%">
+				 <img class="mySlides" src="images/guitar1.jpg" style="width:100%">
+				 <img class="mySlides" src="images/event1.jpg" style="width:100%">
+			   </div>
+			 </div>
+	<!--end of slide show-->
+	<br><br>
+	<h3 id="about" style="padding-left:125px; color:darkblue;"><b>About</b></h3>
+	<div class="container" >
+		
+            <p><b>“The Buzz Around Me (Event Feeds)” is basically an online social media/e-commers like website that allows one to know/get information about all the events that happen around. 
+				One can view all types and category of events that can take place and also buy tickets to attend them as well.
+               </b></p>
+               <br>
+       
+           <div class="parallax" data-parallax="scroll"
+               data-z-index="1"
+                data-image-src="images/allevents.jpg">
+                
+			</div>
+			<br>
+           <p><b>An important characteristic of this application is along with buying of the tickets, a real time google map that allows one to view the location of the events that is going to take place for better accuracy and attractive feature.
+			    One can view full details of a particular post and get more information about the event such as location, date, price of tickets and number of available tickets at that point of time.
+			</b>
+			</p>
+           
+
+    </div>
+<!-- image slider -->
+   <br><br>
+ 
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
+    
+</body>
+</html>
+
+    

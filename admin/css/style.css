@@ -1,0 +1,91 @@
+*{color: black;}
+.bg{
+    background: url(../images/look.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+    
+}
+.bg1{
+    background: url(../images/image2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+   
+}
+.form-container{
+    border: 1px solid #000;
+    padding: 30px 60px;
+    margin-top: 8vh;
+    -webkit-box-shadow: -1px 4px 26px 11px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 4px 26px 11px rgba(0,0,0,0.75);
+    box-shadow: -1px 4px 26px 11px rgba(0,0,0,0.75);
+}
+
+@import url('https://fonts.googleapis.com/css?family=poppins:400,500,700');
+header
+{
+    background-image: url('../images/Upcoming-Events.jpeg');
+    height:30;
+    background-size: contain;
+    background-position: center;
+} 
+.main-nav
+{
+    float: right;
+    list-style: none;
+    margin-top: 30px;
+    
+}
+.main-nav ul
+{
+    float: right;
+}
+.main-nav li
+{
+    
+    display: inline-block;
+}
+
+.main-nav li a
+{
+    color: floralwhite;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: "roboto",sans-serif;
+    font-size: 15px;
+    float: right;
+}
+.main-nav li.active a
+{
+    color: firebrick;
+}
+.main-nav li a:hover
+{
+   color:chartreuse;
+}
+.logo img
+{
+    width: 150px;
+    height: auto;
+    float: left;
+    margin: 20px;
+}
+.thumbnail {
+    
+    display: inline-block;
+    height: auto;
+    padding: 4px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    border: 1px solid #a4a4a4;
+    text-align: center;
+    color: #666;
+
+}
+
+
+
+
+
+
